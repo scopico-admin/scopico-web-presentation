@@ -1,0 +1,40 @@
+# Scopico
+
+> Senior technology consultancy based in Skopje, North Macedonia, serving clients in the United States, United Kingdom, and European Union.
+
+## Services
+
+- Fractional CTO: senior technology leadership without the full-time hire — strategy, roadmaps, build-vs-buy decisions, technical credibility.
+- Technology advisory: ongoing counsel on architecture decisions, scaling, team structure, and delivery risk.
+- Solution architecture & audits: architecture reviews, codebase audits, and rescue for troubled projects. Deep background in .NET, Azure, and distributed systems at scale.
+- AI-assisted development adoption: help engineering teams adopt AI-assisted workflows — standards, context engineering, and guardrails.
+- Development management & SDLC improvement: diagnostics and hands-on improvement of development lifecycle processes.
+- Dedicated development teams: vetted developers assembled and led by Timotej Jakimovski, with architecture oversight included.
+
+## About
+
+Founded by Timotej Jakimovski, software engineer and development lead with 13+ years of experience building enterprise software. Currently development lead on an enterprise time, cost, and vehicle-fleet management platform for Apave France (.NET Core, Angular, MSSQL on Azure, load-balanced for 15,000 peak users), leading 6 developers and 2 testers across multinational remote teams.
+
+## Working principles
+
+- Senior-only: the person you meet is the person who does the work.
+- One client per industry at a time: no conflicts of interest.
+- Selective by design: every engagement is vetted before committing.
+
+## Availability
+
+Monday–Friday 17:30–20:00 CET, Saturdays by arrangement. Full-time offshore engagements considered.
+
+## Contact
+
+- Website: https://scopico.co/
+- Email: admin@scopico.co
+- LinkedIn: https://www.linkedin.com/company/scopico
+- Address: Trifun Buzev 3 3/11, 1000 Skopje, North Macedonia
+
+## Pages
+
+- Home: https://scopico.co/
+- Services: https://scopico.co/services/
+- About: https://scopico.co/about/
+- Contact: https://scopico.co/contact/

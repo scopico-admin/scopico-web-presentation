@@ -212,3 +212,20 @@ a:hover { text-decoration: underline; }
 .cookie-banner p { margin: 0; max-width: 640px; }
 .cookie-actions { display: flex; gap: 10px; }
 .cookie-actions .btn { padding: 9px 20px; font-size: 0.9rem; }
+
+/* FAQ */
+.faq {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  margin-bottom: 12px;
+  background: #fff;
+}
+.faq summary {
+  cursor: pointer;
+  padding: 16px 20px;
+  font-weight: 600;
+  color: var(--ink);
+}
+.faq summary:hover { color: var(--accent-dark); }
+.faq p { padding: 0 20px 18px; margin: 0; color: var(--muted); }
+.faq p a { color: var(--accent-dark); }
