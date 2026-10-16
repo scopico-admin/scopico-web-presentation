@@ -191,3 +191,24 @@ a:hover { text-decoration: underline; }
   .main-nav a { margin-left: 16px; }
   .section { padding: 48px 0; }
 }
+
+/* Cookie consent banner */
+.cookie-banner {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 50;
+  background: var(--bg-alt);
+  border-top: 1px solid var(--line);
+  padding: 16px 24px;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: var(--muted);
+}
+.cookie-banner[hidden] { display: none; }
+.cookie-banner p { margin: 0; max-width: 640px; }
+.cookie-actions { display: flex; gap: 10px; }
+.cookie-actions .btn { padding: 9px 20px; font-size: 0.9rem; }

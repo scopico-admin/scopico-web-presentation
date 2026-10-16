@@ -72,7 +72,10 @@
   <div class="container center">
     <h2>Have a technical challenge?</h2>
     <p class="lede">One conversation is enough to tell whether we can help.</p>
-    <a class="btn btn-primary" href="mailto:admin@scopico.co">admin@scopico.co</a>
+    <div class="cta-row" style="justify-content: center;">
+      <a class="btn btn-primary" href="mailto:admin@scopico.co">admin@scopico.co</a>
+      <a class="btn btn-ghost" href="/downloads/scopico-capability-statement.pdf" download>Capability statement (PDF)</a>
+    </div>
   </div>
 </section>
 
@@ -92,5 +95,45 @@
     </div>
     <div class="container footer-base">© 2026 Scopico. All rights reserved.</div>
   </footer>
+
+  <div id="cookie-banner" class="cookie-banner" hidden>
+    <p>This site uses a LinkedIn analytics tag to understand its professional visitors (aggregated statistics only).</p>
+    <div class="cookie-actions">
+      <button id="cookie-accept" class="btn btn-primary" type="button">Accept</button>
+      <button id="cookie-decline" class="btn btn-ghost" type="button">Decline</button>
+    </div>
+  </div>
+  <script>
+  (function() {
+    var KEY = 'scopico-consent';
+    function loadLinkedInTag() {
+      if (window._linkedin_data_partner_ids) return;
+      var pid = '10225124';
+      window._linkedin_partner_id = pid;
+      window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+      window._linkedin_data_partner_ids.push(pid);
+      var s = document.getElementsByTagName('script')[0];
+      var b = document.createElement('script');
+      b.type = 'text/javascript'; b.async = true;
+      b.src = 'https://snap.licdn.com/li.lms-analytics/insight.min.js';
+      s.parentNode.insertBefore(b, s);
+    }
+    try {
+      var c = localStorage.getItem(KEY);
+      if (c === 'granted') { loadLinkedInTag(); return; }
+      if (c === 'denied') return;
+    } catch (e) { return; }
+    var banner = document.getElementById('cookie-banner');
+    banner.hidden = false;
+    document.getElementById('cookie-accept').addEventListener('click', function() {
+      try { localStorage.setItem(KEY, 'granted'); } catch (e) {}
+      banner.hidden = true; loadLinkedInTag();
+    });
+    document.getElementById('cookie-decline').addEventListener('click', function() {
+      try { localStorage.setItem(KEY, 'denied'); } catch (e) {}
+      banner.hidden = true;
+    });
+  })();
+  </script>
 </body>
 </html>
