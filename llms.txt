@@ -10,6 +10,11 @@
 - AI-assisted development adoption: help engineering teams adopt AI-assisted workflows — standards, context engineering, and guardrails.
 - Development management & SDLC improvement: diagnostics and hands-on improvement of development lifecycle processes.
 - Dedicated development teams: vetted developers assembled and led by Timotej Jakimovski, with architecture oversight included.
+- Custom software development: end-to-end design and delivery of business software on the Microsoft stack. Lump sum against fixed, agreed requirements, or time-and-materials only within an established dedicated development team.
+
+## Technologies
+
+Deepest on the Microsoft stack: C#, .NET / .NET Core, ASP.NET Core, TypeScript, Microsoft Azure, Azure DevOps, GitHub (Copilot, Enterprise), TFS, Microsoft SQL Server, Redis, Windows Server, PowerShell. Also: Angular, JavaScript, HTML/CSS, Java, Go, MySQL, Oracle PL/SQL, Apache Cordova, Android.
 
 ## About
 
