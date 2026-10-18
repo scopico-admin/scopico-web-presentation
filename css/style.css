@@ -288,8 +288,8 @@ a:hover { text-decoration: underline; }
 /* Section heading icons with hover effect */
 .h2-icon {
   display: inline-flex;
-  width: 1.1em;
-  height: 1.1em;
+  width: 1em;
+  height: 1em;
   margin-right: 0.45em;
   vertical-align: -0.16em;
   color: var(--accent);
