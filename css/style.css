@@ -284,3 +284,16 @@ a:hover { text-decoration: underline; }
 .chip-open { background: #eefbf3; border-color: #bfe6cd; color: #1e6b3a; }
 .chip-open::before { background: #2fa35f; }
 .muted.small { font-size: 0.85rem; color: var(--muted); }
+
+/* Section heading icons with hover effect */
+.h2-icon {
+  display: inline-flex;
+  width: 1.1em;
+  height: 1.1em;
+  margin-right: 0.45em;
+  vertical-align: -0.16em;
+  color: var(--accent);
+  transition: transform 0.25s ease, color 0.25s ease;
+}
+.h2-icon svg { width: 100%; height: 100%; display: block; }
+.prose h2:hover .h2-icon { transform: scale(1.2) rotate(-8deg); color: var(--accent-dark); }
