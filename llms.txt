@@ -18,7 +18,7 @@ Deepest on the Microsoft stack: C#, .NET / .NET Core, ASP.NET Core, TypeScript, 
 
 ## About
 
-Founded by Timotej Jakimovski, software engineer and development lead with 13+ years of experience building enterprise software. Currently development lead on an enterprise time, cost, and vehicle-fleet management platform for Apave France (.NET Core, Angular, MSSQL on Azure, load-balanced for 15,000 peak users), leading 6 developers and 2 testers across multinational remote teams.
+Founded by Timotej Jakimovski, software engineer and development lead with 13+ years of experience building enterprise software. Currently development lead on an enterprise time, cost, and vehicle-fleet management platform for a French enterprise client (.NET Core, Angular, MSSQL on Azure, load-balanced for 15,000 peak users), leading 6 developers and 2 testers across multinational remote teams.
 
 ## Working principles
 
