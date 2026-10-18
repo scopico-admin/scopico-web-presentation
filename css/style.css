@@ -270,3 +270,17 @@ a:hover { text-decoration: underline; }
   justify-content: center;
 }
 .timeline li p { margin: 4px 0 0; color: var(--muted); }
+
+/* Industry availability chips */
+.chips { display: flex; flex-wrap: wrap; gap: 10px; margin: 12px 0 4px; }
+.chip {
+  display: inline-flex; align-items: center; gap: 8px;
+  padding: 8px 14px; border-radius: 999px;
+  font-size: 0.9rem; font-weight: 600; border: 1px solid var(--line);
+}
+.chip::before { content: ""; width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.chip-full { background: #fdf0f0; border-color: #efc9c9; color: #8a2b2b; }
+.chip-full::before { background: #d64545; }
+.chip-open { background: #eefbf3; border-color: #bfe6cd; color: #1e6b3a; }
+.chip-open::before { background: #2fa35f; }
+.muted.small { font-size: 0.85rem; color: var(--muted); }
