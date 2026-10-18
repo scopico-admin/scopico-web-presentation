@@ -14,7 +14,7 @@
 
 ## Technologies
 
-Deepest on the Microsoft stack: C#, .NET / .NET Core, ASP.NET Core, TypeScript, Microsoft Azure, Azure DevOps, GitHub (Copilot, Enterprise), TFS, Microsoft SQL Server, Redis, Windows Server, PowerShell. Also: Angular, JavaScript, HTML/CSS, Java, Go, MySQL, Oracle PL/SQL, Apache Cordova, Android.
+Deepest on the Microsoft stack: C#, .NET / .NET Core, ASP.NET Core, TypeScript, Microsoft Azure, Azure DevOps, GitHub (Copilot, Enterprise), TFS, Microsoft SQL Server, Redis, Windows Server, PowerShell. Also: Angular, JavaScript, HTML/CSS, Go, MySQL, Oracle PL/SQL, Apache Cordova, Android.
 
 ## About
 
