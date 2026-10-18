@@ -1,7 +1,9 @@
 # scopico-web-presentation
 
-A static website served directly from the root `index.html` file. No dependencies
-or build step are required.
+A static website served directly from the root `index.html` file. It includes the
+LinkedIn Insight Tag, Google crawler access via `robots.txt` and `sitemap.xml`,
+and Open Graph metadata for Facebook Sharing Debugger previews. No dependencies or
+build step are required.
 
 ## Publish with GitHub Pages
 
