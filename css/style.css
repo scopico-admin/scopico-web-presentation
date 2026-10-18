@@ -229,3 +229,44 @@ a:hover { text-decoration: underline; }
 .faq summary:hover { color: var(--accent-dark); }
 .faq p { padding: 0 20px 18px; margin: 0; color: var(--muted); }
 .faq p a { color: var(--accent-dark); }
+
+/* Engagement timeline (contact page) */
+.timeline {
+  list-style: none;
+  margin: 8px 0;
+  padding: 0;
+  position: relative;
+  counter-reset: tl;
+}
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 15px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: var(--line);
+}
+.timeline li {
+  position: relative;
+  padding: 0 0 24px 48px;
+}
+.timeline li:last-child { padding-bottom: 4px; }
+.timeline li::before {
+  content: counter(tl);
+  counter-increment: tl;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timeline li p { margin: 4px 0 0; color: var(--muted); }
