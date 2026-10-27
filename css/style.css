@@ -3,7 +3,7 @@
   --muted: #4d6a8a;
   --accent: #2f8ff0;
   --accent-dark: #1f6fd0;
-  --teal: #1fa8b8;
+  --teal: #0e7d8c;
   --gold: #f2c749;
   --purple: #af52aa;
   --bg: #ffffff;
@@ -159,8 +159,8 @@ a:hover { text-decoration: underline; }
   border: 1px solid transparent;
 }
 .btn:hover { text-decoration: none; }
-.btn-primary { background: var(--accent); color: #fff; }
-.btn-primary:hover { background: var(--accent-dark); color: #fff; }
+.btn-primary { background: var(--accent-dark); color: #fff; }
+.btn-primary:hover { background: #1756ad; color: #fff; }
 .btn-ghost { border-color: var(--line); color: var(--ink); background: #fff; }
 .btn-ghost:hover { border-color: var(--accent); }
 
@@ -261,7 +261,7 @@ a:hover { text-decoration: underline; }
   width: 32px;
   height: 32px;
   border-radius: 50%;
-  background: var(--accent);
+  background: var(--accent-dark);
   color: #fff;
   font-weight: 700;
   font-size: 0.85rem;
