@@ -49,7 +49,6 @@
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png">
   <link rel="apple-touch-icon" href="/apple-touch-icon.png">
-  <link rel="ai-catalog" href="/.well-known/ai-catalog.json">
   <link rel="stylesheet" href="/css/style.css">
 
   <style>
@@ -84,8 +83,8 @@
         <p class="kicker">Coming soon</p>
         <h1>A different way of awareness is on the way.</h1>
         <p class="lede">Scopico is working on something new. We&rsquo;re keeping the details under wraps for now &mdash; check back soon, or drop us a line and we&rsquo;ll keep you posted.</p>
-        <form id="notify-form" class="notify-form" novalidate>
-          <input type="email" id="notify-email" name="email" placeholder="you@example.com" required autocomplete="email" aria-label="Email address">
+        <form id="notify-form" class="notify-form" novalidate toolname="notify_me" tooldescription="Join the list to be notified when Scopico's upcoming product launches. Requires an email address.">
+          <input type="email" id="notify-email" name="email" placeholder="you@example.com" required autocomplete="email" aria-label="Email address" toolparamdescription="The email address to notify when the product launches.">
           <button type="submit" class="btn btn-primary">Notify me</button>
         </form>
         <p id="notify-msg" class="notify-msg" role="status" hidden></p>
@@ -134,5 +133,6 @@
     </div>
     <div class="container footer-base">© 2026 Scopico. All rights reserved.</div>
   </footer>
+  <script src="/assets/webmcp.js" defer></script>
 </body>
 </html>
