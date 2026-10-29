@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://scopico.co/sitemap.xml
-Agentmap: https://scopico.co/.well-known/ai-catalog.json
